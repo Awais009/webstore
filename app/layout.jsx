@@ -5,11 +5,7 @@ import "./globals.css";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-//  import "assets/css/icofont.min.css" 
-// import "assets/css/video-modal.css" 
-// import "assets/css/aos.css" 
-// import "assets/css/style.css"
-import Script from "next/script";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -43,6 +39,7 @@ export default function RootLayout({ children }) {
     <link rel="stylesheet" href="assets/css/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
 
+    {/* <script src="assets/js/swiper-bundle.min.js"></script> */}
       <script src="assets/js/isotope.pkgd.min.js"  ></script>
       <script src="assets/js/accordion.js"  ></script>
       <script src="assets/js/chart.js"  ></script>
@@ -792,15 +789,14 @@ export default function RootLayout({ children }) {
                             </h3>
                             <ul>
                               <li>
-                                <a
-                                  href="about.html"
+                                <Link
+                                  href="/about"
                                   className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor p-10px block hover:bg-whitegrey1 hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-whiteColor dark:hover:bg-whitegrey1-dark dark:hover:text-primaryColor"
                                   >About
                                   <span
                                     className="text-size-12 font-semibold text-primaryColor bg-whitegrey3 px-15px py-5px ml-5px rounded"
                                     >Sale Everything</span
-                                  ></a
-                                >
+                                  ></Link>
                               </li>
                               <li>
                                 <a
