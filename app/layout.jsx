@@ -200,571 +200,7 @@ export default function RootLayout({ children }) {
               </div>
               <div className="hidden lg:block lg:col-start-3 lg:col-span-7">
                 <ul className="nav-list flex justify-center">
-                  <li className="nav-item group">
-                    <a
-                      href="#"
-                      className="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor"
-                    >
-                      Demos
-                      <i className="icofont-rounded-down"></i>
-                    </a>
-                    <div
-                      className="dropdown absolute left-0 translate-y-10 z-medium hidden opacity-0"
-                      style={{transition: "0.3s"}}
-                    >
-                      <div
-                        className="tab container 3xl:container2-lg 4xl:container shadow-dropdown px-30px mx-auto xl:px-30px py-15px max-h-dropdown 3xl:h-2000 xl:overflow-y-scroll rounded-standard bg-white dark:bg-whiteColor-dark"
-                      >
-                        <div
-                          className="tab-links grid grid-cols-2 gap-22px text-blackColor text-lg font-semibold font-hind"
-                        >
-                          <button
-                            className="py-3 hover:text-primaryColor dark:text-whiteColor dark:hover:text-primaryColor bg-white dark:bg-whiteColor-dark dark:hover:bg-whiteColor-dark hover:bg-white relative group/btn shadow-bottom hover:shadow-bottom dark:shadow-standard-dark disabled:cursor-pointer rounded-standard"
-                          >
-                            <span
-                              className="absolute w-full h-1 bg-primaryColor top-0 left-0 group-hover/btn:w-full"
-                            ></span>
-
-                            Light
-                          </button>
-                          <button
-                            className="py-3 hover:text-primaryColor dark:hover:text-primaryColor dark:text-whiteColor bg-lightGrey7 dark:bg-lightGrey7-dark hover:bg-white dark:hover:bg-whiteColor-dark relative group/btn hover:shadow-bottom dark:shadow-standard-dark disabled:cursor-pointer rounded-standard"
-                          >
-                            <span
-                              className="absolute w-0 h-1 bg-primaryColor top-0 left-0 group-hover/btn:w-full"
-                            ></span>
-
-                            Dark
-                          </button>
-                        </div>
-
-                        <div className="tab-contents">
-                          <div
-                            id="light-demos"
-                            className="block opacity-100 transition-opacity duration-150 ease-linear"
-                          >
-                            <ul
-                              id="light-list"
-                              className="grid grid-cols-5 gap-30px pt-30px pb-15px"
-                            >
-                              <li>
-                                <a
-                                  href="index.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-1.png"
-                                    className="w-full"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Default)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-2.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-2.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Elegant)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-3.html"
-                                  className="overflow-hidden group/light relative block box-border shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard"
-                                  ><img
-                                    src="assets/images/mega/home-3.png"
-                                    alt="Mega Menu"
-                                    className="w-full"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Classic)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-4.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-4.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Classic LMS)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-5.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-5.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Online Course)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-6.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-5px"
-                                  ><img
-                                    src="assets/images/mega/home-6.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Marketplace)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-7.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-7.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (University)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-8.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-8.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (eCommerce)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-9.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-9.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Kindergarten)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-10.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-10.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Machine Learning)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-11.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-11.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Single Course)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 1
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 2
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 3
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 4
-                                  </span></a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-
-                          <div
-                            id="dark-demos"
-                            className="hidden opacity-0 transition-opacity duration-150 ease-linear"
-                          >
-                            <ul
-                              id="dark-list"
-                              className="grid grid-cols-5 gap-30px pt-30px pb-15px"
-                            >
-                              <li>
-                                <a
-                                  href="index-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-1-dark.png"
-                                    className="w-full"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Default)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-2-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-2-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Elegant)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-3-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-3-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Classic)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-4-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-4-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Classic LMS)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-5-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-5-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Online Course)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-6-dark.html"
-                                  className="overflow-hidden group relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-5px"
-                                  ><img
-                                    src="assets/images/mega/home-6-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Marketplace)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-7-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-7-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (University)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-8-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-8-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (eCommerce)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-9-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-9-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Kindergarten)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-10-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-10-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Machine Learning)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-11-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/home-11-dark.png"
-                                    alt="Mega Menu"
-                                  />
-                                  <span
-                                    className="bg-secondaryColor text-xs px-15px py-5px leading-1 text-white absolute top-5px left-5px rounded-standard"
-                                    >New</span
-                                  >
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Home (Single Course)
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="home-11-dark.html"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming-dark.png"
-                                    alt=""
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 1
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming-dark.png"
-                                    alt=""
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 2
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming-dark.png"
-                                    alt=""
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 3
-                                  </span></a
-                                >
-                              </li>
-                              <li>
-                                <a
-                                  href="#"
-                                  className="overflow-hidden group/light relative block shadow-dropdown-card hover:shadow-dropdown-card-hover hover:-translate-y-[5px] rounded-standard dark:shadow-dropdown-card-dark"
-                                  ><img
-                                    src="assets/images/mega/coming-dark.png"
-                                    alt=""
-                                  />
-                                  <span
-                                    className="absolute left-0 w-full top-full group-hover/light:-translate-y-full bg-primaryColor text-sm leading-[1] p-10px text-center font-semibold text-whiteColor"
-                                  >
-                                    Layout Coming Soon 4
-                                  </span></a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </li>
+                
                   <li className="nav-item group">
                     <a
                       href="#"
@@ -1472,13 +908,13 @@ export default function RootLayout({ children }) {
                     </div>
                   </li>
                   <li className="nav-item group relative">
-                    <a
-                      href="pages/ecommerce/shop.html"
+                    <Link
+                      href="/shop"
                       className="px-5 lg:px-10px 2xl:px-15px 3xl:px-5 py-10 lg:py-5 2xl:py-30px 3xl:py-10 leading-sm 2xl:leading-lg text-base lg:text-sm 2xl:text-base font-semibold block group-hover:text-primaryColor dark:text-whiteColor"
                     >
                       eCommerce
                       <i className="icofont-rounded-down"></i>
-                    </a>
+                    </Link>
                     <div
                       className="dropdown absolute left-0 translate-y-10 z-medium hidden opacity-0"
                       style={{transition: "0.3s"}}
@@ -1488,43 +924,41 @@ export default function RootLayout({ children }) {
                       >
                         <ul>
                           <li>
-                            <a
-                              href="pages/ecommerce/shop.html"
+                            <Link
+                              href="/shop"
                               className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 block hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-contentColor-dark dark:hover:text-primaryColor dark:hover:bg-whitegrey1-dark"
                               >Shop
                               <span
                                 className="text-size-12 font-semibold text-primaryColor bg-whitegrey3 px-15px py-5px rounded"
                                 >Online Store</span
                               >
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="pages/ecommerce/product-details.html"
+                            <Link
+                              href="/product-detail"
                               className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 block hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-contentColor-dark dark:hover:text-primaryColor dark:hover:bg-whitegrey1-dark"
                               >Product Details
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="pages/ecommerce/cart.html"
+                            <Link
+                              href="/cart"
                               className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 block hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-contentColor-dark dark:hover:text-primaryColor dark:hover:bg-whitegrey1-dark"
-                              >Cart</a
-                            >
+                              >Cart</Link>
                           </li>
                           <li>
-                            <a
-                              href="pages/ecommerce/checkout.html"
+                            <Link
+                              href="/checkout"
                               className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 block hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-contentColor-dark dark:hover:text-primaryColor dark:hover:bg-whitegrey1-dark"
                               >Checkout
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a
-                              href="pages/ecommerce/wishlist.html"
+                            <Link
+                              href="/wishlist"
                               className="text-sm 2xl:text-base font-semibold text-contentColor border-l-2 border-transparent transition duration-300 hover:border-primaryColor px-25px py-10px hover:bg-whitegrey1 block hover:text-primaryColor leading-sm lg:leading-lg 2xl:leading-lg dark:text-contentColor-dark dark:hover:text-primaryColor dark:hover:bg-whitegrey1-dark"
-                              >Wishlist</a
-                            >
+                              >Wishlist</Link>
                           </li>
                         </ul>
                       </div>
@@ -1537,15 +971,14 @@ export default function RootLayout({ children }) {
                   <li
                     className="px-5 lg:px-10px 2xl:px-5 lg:py-4 2xl:py-26px 3xl:py-9 group"
                   >
-                    <a href="pages/ecommerce/cart.html" className="relative block"
+                    <Link href="/cart" className="relative block"
                       ><i
                         className="icofont-cart-alt text-2xl text-blackColor group-hover:text-secondaryColor transition-all duration-300 dark:text-blackColor-dark"
                       ></i>
                       <span
                         className="absolute -top-1 2xl:-top-[5px] -right-[10px] lg:right-3/4 2xl:-right-[10px] text-[10px] font-medium text-white dark:text-whiteColor-dark bg-secondaryColor px-1 py-[2px] leading-1 rounded-full z-50 block"
                         >3</span
-                      ></a
-                    >
+                      ></Link>
                     <div
                       className="dropdown absolute top-full right-0 lg:right-8 z-medium hidden opacity-0"
                       style={{transition: "0.3s"}}
@@ -1650,16 +1083,14 @@ export default function RootLayout({ children }) {
                         </div>
 
                         <div className="flex flex-col gap-y-5">
-                          <a
-                            href="pages/ecommerce/cart.html"
+                          <Link
+                            href="/cart"
                             className="text-sm font-bold text-contentColor dark:text-contentColor-dark hover:text-whiteColor hover:bg-secondaryColor text-center py-10px border border-secondaryColor"
-                            >View Cart</a
-                          >
-                          <a
-                            href="pages/ecommerce/checkout.html"
+                            >View Cart</Link >
+                          <Link
+                            href="/checkout"
                             className="text-sm font-bold bg-darkblack dark:bg-darkblack-dark text-whiteColor dark:text-whiteColor-dark hover:bg-secondaryColor dark:hover:bg-secondaryColor text-center py-10px"
-                            >Checkout</a
-                          >
+                            >Checkout</Link>
                         </div>
                       </div>
                     </div>
@@ -2814,11 +2245,10 @@ export default function RootLayout({ children }) {
               </li>
               <li className="accordion">
                 <div className="flex items-center justify-between">
-                  <a
+                  <Link
                     className="leading-1 py-11px text-darkdeep1 font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
-                    href="pages/ecommerce/shop.html"
-                    >ECommerce</a
-                  >
+                    href="/shop"
+                    >ECommerce</Link>
                   <button className="accordion-controller px-3 py-4">
                     <span
                       className="w-[10px] h-[1px] bg-darkdeep1 block dark:bg-whiteColor"
@@ -2835,51 +2265,46 @@ export default function RootLayout({ children }) {
                     <ul>
                       <li>
                         <div className="flex items-center justify-between">
-                          <a
-                            href="pages/ecommerce/shop.html"
+                          <Link
+                            href="/shop"
                             className="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
                             >Shop
                             <span
                               className="px-15px py-5px text-primaryColor bg-whitegrey3 text-xs rounded ml-5px"
                               >Online Store</span
-                            ></a
-                          >
+                            ></Link>
                         </div>
                       </li>
                       <li>
                         <div className="flex items-center justify-between">
-                          <a
-                            href="pages/ecommerce/product-details.html"
+                          <Link
+                            href="/product-detail"
                             className="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
-                            >Product Details</a
-                          >
+                            >Product Details</Link>
                         </div>
                       </li>
                       <li>
                         <div className="flex items-center justify-between">
-                          <a
-                            href="pages/ecommerce/cart.html"
+                          <Link
+                            href="/cart"
                             className="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
-                            >Cart</a
-                          >
+                            >Cart</Link>
                         </div>
                       </li>
                       <li>
                         <div className="flex items-center justify-between">
-                          <a
-                            href="pages/ecommerce/checkout.html"
+                          <Link
+                            href="/checkout"
                             className="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
-                            >Checkout</a
-                          >
+                            >Checkout</Link>
                         </div>
                       </li>
                       <li>
                         <div className="flex items-center justify-between">
-                          <a
-                            href="pages/ecommerce/wishlist.html"
+                          <Link
+                            href="/wishlist"
                             className="leading-1 text-darkdeep1 text-sm pl-15px pt-3 pb-7px font-medium hover:text-secondaryColor dark:text-whiteColor dark:hover:text-secondaryColor"
-                            >Wishlist</a
-                          >
+                            >Wishlist</Link>
                         </div>
                       </li>
                     </ul>
